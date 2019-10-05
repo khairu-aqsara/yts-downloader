@@ -1,3 +1,5 @@
-from yts.function import latest
+from yts.downloader import main_menu
 
-latest({'sort_by':'year','query_term':'furious'})
+#latest({'sort_by':'year','query_term':'furious'})
+
+main_menu()
